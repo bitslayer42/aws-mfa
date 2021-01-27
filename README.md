@@ -19,7 +19,8 @@ They will look something like this:
     export AWS_SECRET_ACCESS_KEY="CZb..."
     export AWS_SESSION_TOKEN="IQoJc..."
 ```
-- Copy and paste to command line
+- Copy and paste to command line.
+
 To verify, a simple command that should work might be:
 ```
     aws s3 ls
