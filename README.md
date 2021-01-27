@@ -11,6 +11,10 @@ To use:
     python mfa.py
 - Enter code when prompted.
 The commands you need will be printed out below.
+They will look something like this:
+    export AWS_ACCESS_KEY_ID="ASI..."
+    export AWS_SECRET_ACCESS_KEY="CZb..."
+    export AWS_SESSION_TOKEN="IQoJc..."
 - Copy and paste to command line
 To verify, a simple command that should work might be:
     aws s3 ls
